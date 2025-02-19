@@ -1,8 +1,10 @@
-import { AppointmentSection } from "./appointment-section";
-import { Hero } from "./hero";
-import { ServicesSection } from "./services-section";
-import { StudiesSection } from "./studies-section";
-import { WelcomeSection } from "./welcome-section";
+import { AppointmentSection } from "./sections/appointment-section";
+import { BlogSection } from "./sections/blog-section";
+import { Hero } from "./sections/hero";
+import { ServicesSection } from "./sections/services-section";
+import { StudiesSection } from "./sections/studies-section";
+import { TestimonialSection } from "./sections/testimonial-section";
+import { WelcomeSection } from "./sections/welcome-section";
 
 export default function Home() {
   return (
@@ -12,6 +14,8 @@ export default function Home() {
       <WelcomeSection />
       <StudiesSection />
       <AppointmentSection />
+      <TestimonialSection />
+      <BlogSection />
     </>
   );
 }
