@@ -31,7 +31,7 @@ export const Header = () => {
         isSticky && "sticky top-0 z-50 bg-background"
       )}
     >
-      <nav className="flex flex-col px-4 py-2 text-sm xl:flex-row xl:justify-between">
+      <nav className="flex flex-col px-4 py-2 text-sm xl:flex-row xl:justify-between xl:py-4">
         <div className="flex items-center justify-between xl:justify-normal">
           <div className="flex flex-col">
             <h1

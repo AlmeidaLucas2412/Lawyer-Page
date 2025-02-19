@@ -11,12 +11,15 @@ export const Typewritter = ({ textToShow }: Props) => {
   const writeText = (text: string, i = 0) => {
     if (i < text.length) {
       setText(text.slice(0, i + 1));
-      setTimeout(() => writeText(text, i + 1), 250);
+      setTimeout(() => writeText(text, i + 1), 400);
+    } else if (text.length === textToShow.length) {
+      setText("");
+      setTimeout(() => writeText(textToShow), 400);
     }
   };
 
   useEffect(() => {
-    writeText(textToShow);
+    setTimeout(() => writeText(textToShow), 1000);
   }, []);
 
   return <span className="ml-2 text-emphasis">{text}</span>;

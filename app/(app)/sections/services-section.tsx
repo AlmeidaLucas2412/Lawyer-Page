@@ -5,16 +5,18 @@ import { CalendarClock, Crosshair, Handshake } from "lucide-react";
 
 export const ServicesSection = () => {
   return (
-    <section className="flex flex-col gap-y-4 px-4 py-8">
-      <Heading
-        introduction="Services"
-        title="Why select us?"
-        description="Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iste cupiditate distinctio mollitia et fugiat libero minus sapiente illo?"
-      />
-      <Button className="w-fit p-7 text-base">
-        <span>Free Consultation</span>
-      </Button>
-      <div className="flex flex-col gap-y-8 bg-emphasis -mx-4 p-6 mt-4">
+    <section className="flex flex-col px-4 py-8 gap-y-4 xl:flex-row xl:items-center xl:gap-x-8 xl:px-44">
+      <div className="flex flex-col gap-y-4">
+        <Heading
+          introduction="Services"
+          title="Why select us?"
+          description="Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iste cupiditate distinctio mollitia et fugiat libero minus sapiente illo?"
+        />
+        <Button className="text-base w-fit p-7">
+          <span>Free Consultation</span>
+        </Button>
+      </div>
+      <div className="flex flex-col p-6 mt-4 -mx-4 gap-y-8 bg-emphasis md:flex-row md:gap-x-2">
         <ServiceCard
           icon={Handshake}
           title="Fight for Justice"

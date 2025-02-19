@@ -21,14 +21,16 @@ export const Heading = ({
       )}
     >
       <div className="flex flex-col gap-y-1">
-        <span className="font-bold capitalize text-emphasis">
+        <span className="font-bold capitalize text-emphasis xl:text-lg">
           {introduction}
         </span>
-        <h2 className="text-3xl font-bold capitalize text-foreground">
+        <h2 className="text-3xl font-bold capitalize text-foreground xl:text-4xl">
           {title}
         </h2>
       </div>
-      {description && <p className="text-description">{description}</p>}
+      {description && (
+        <p className="text-description xl:text-lg">{description}</p>
+      )}
     </div>
   );
 };

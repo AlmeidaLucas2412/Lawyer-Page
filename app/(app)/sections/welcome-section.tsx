@@ -15,20 +15,20 @@ export const WelcomeSection = () => {
   };
 
   return (
-    <section className="flex flex-col px-4 py-8 gap-y-8">
+    <section className="flex flex-col px-4 py-8 gap-y-8 md:flex-row md:items-start xl:px-44 xl:items-center">
       <Image
         src="/welcome.jpg"
         width={500}
         height={500}
         alt="Attorney"
-        className="self-center"
+        className="self-center md:h-[500px] md:object-cover md:w-1/3"
       />
-      <Heading
-        introduction="Welcome to legalcare"
-        title="We always fight for your justice to win"
-        description="Lorem ipsum dolor sit amet consectetur, adipisicing elit."
-      />
-      <div className="flex flex-col gap-y-2">
+      <div className="flex flex-col gap-y-2 md:p-8 md:text-center md:flex-1">
+        <Heading
+          introduction="Welcome to legalcare"
+          title="We always fight for your justice to win"
+          description="Lorem ipsum dolor sit amet consectetur, adipisicing elit."
+        />
         <Button
           onClick={() =>
             handleText(
@@ -65,10 +65,12 @@ export const WelcomeSection = () => {
         >
           <span className="text-base font-semibold">Our values</span>
         </Button>
-      </div>
-      <p className="text-description">{text}</p>
-      <div className="p-4 bg-emphasis">
-        <span className="text-xl text-background">40 Years of Experience</span>
+        <p className="xl:h-20 text-description">{text}</p>
+        <div className="p-4 bg-emphasis md:hidden">
+          <span className="text-xl text-background">
+            40 Years of Experience
+          </span>
+        </div>
       </div>
     </section>
   );
