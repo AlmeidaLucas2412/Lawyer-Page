@@ -11,29 +11,29 @@ export const ServicesSection = () => {
     >
       <div className="flex flex-col gap-y-4">
         <Heading
-          introduction="Services"
-          title="Why select us?"
-          description="Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iste cupiditate distinctio mollitia et fugiat libero minus sapiente illo?"
+          introduction="Serviços"
+          title="Por que nos escolher?"
+          description="Excelência Jurídica. Compromisso, Experiência e Dedicação Exclusiva ao Seu Caso."
         />
         <Button className="text-base w-fit p-7">
-          <span>Free Consultation</span>
+          <span>Consulta gratuita</span>
         </Button>
       </div>
       <div className="flex flex-col p-6 mt-4 -mx-4 gap-y-8 bg-emphasis md:flex-row md:gap-x-2">
         <ServiceCard
           icon={Handshake}
-          title="Fight for Justice"
-          description="Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iste cupiditate distinctio mollitia et fugiat libero minus sapiente illo?"
+          title="Luta por justiça"
+          description="Nosso compromisso é lutar por justiça, defendendo seus direitos com dedicação e determinação total."
         />
         <ServiceCard
           icon={Crosshair}
-          title="Best Case Strategy"
-          description="Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iste cupiditate distinctio mollitia et fugiat libero minus sapiente illo?"
+          title="Melhor estratégia"
+          description="Desenvolvemos a melhor estratégia para cada caso, utilizando nosso conhecimento e experiência para obter os melhores resultados."
         />
         <ServiceCard
           icon={CalendarClock}
-          title="Experienced Attorney"
-          description="Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iste cupiditate distinctio mollitia et fugiat libero minus sapiente illo?"
+          title="Experiência"
+          description="Com anos de experiência na área jurídica, nossos advogados possuem a expertise necessária para lidar com casos complexos."
         />
       </div>
     </section>

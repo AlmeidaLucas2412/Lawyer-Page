@@ -48,7 +48,7 @@ export const Header = () => {
                 isSticky && "text-foreground"
               )}
             >
-              A law firm agency
+              Escritório de Advocacia
             </span>
           </div>
           <button className="p-2 xl:hidden" onClick={() => setIsOpen(!isOpen)}>
@@ -67,25 +67,25 @@ export const Header = () => {
             )}
           >
             <li className="text-emphasis">
-              <a href="#">Home</a>
+              <a href="#">Início</a>
             </li>
             <li className="lg:hover:text-emphasis">
-              <a href="#services">Services</a>
+              <a href="#services">Serviços</a>
             </li>
             <li className="lg:hover:text-emphasis">
-              <a href="#about">About us</a>
+              <a href="#about">Sobre Nós</a>
             </li>
             <li className="lg:hover:text-emphasis">
-              <a href="#studies">Case Studies</a>
+              <a href="#studies">Estudos de Caso</a>
             </li>
             <li className="lg:hover:text-emphasis">
-              <a href="#appointment">Appointment</a>
+              <a href="#appointment">Agendamento</a>
             </li>
             <li className="lg:hover:text-emphasis">
-              <a href="#testimonial">Testimonial</a>
+              <a href="#testimonial">Feedbacks</a>
             </li>
             <li className="lg:hover:text-emphasis">
-              <a href="#contact">Contact</a>
+              <a href="#contact">Contato</a>
             </li>
           </ul>
         </div>

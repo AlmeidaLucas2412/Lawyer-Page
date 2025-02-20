@@ -12,7 +12,7 @@ export const Hero = () => {
       style={{
         backgroundImage: "url('/hero-image.jpg')",
         backgroundSize: "cover",
-        backgroundPosition: "center",
+        backgroundPosition: "70% 20%",
       }}
     >
       <div className="absolute inset-0 z-10 bg-black/40">{""}</div>
@@ -23,18 +23,20 @@ export const Hero = () => {
         transition={{ duration: 1 }}
       >
         <span className="font-bold uppercase text-emphasis xl:text-lg">
-          Welcome to legalcare
+          Legalcare
         </span>
-        <h1 className="text-4xl font-bold capitalize text-background xl:text-6xl m:w-2/3 md:w-auto">
-          Attorneys fighting for your
-          <Typewritter textToShow="Freedom." />
+        <h1 className="text-4xl font-bold capitalize text-background xl:text-6xl">
+          Advogados lutando pela sua
+          <Typewritter textToShow="Liberdade." />
         </h1>
         <span className="text-neutral-50/70 xl:text-xl">
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iste
-          cupiditate distinctio mollitia et fugiat libero minus sapiente illo?
+          Defendemos seus direitos com determinação e expertise. Nossa equipe
+          dedicada está comprometida em oferecer soluções jurídicas eficientes e
+          personalizadas para proteger a sua liberdade e garantir a justiça que
+          você merece.
         </span>
         <Button className="flex p-5 capitalize gap-x-2 w-fit xl:p-6">
-          <span className="xl:text-lg">Get legal advice</span>
+          <span className="xl:text-lg">Aconselhamento jurídico</span>
           <ChevronRight />
         </Button>
       </motion.div>

@@ -12,9 +12,6 @@ export const Typewritter = ({ textToShow }: Props) => {
     if (i < text.length) {
       setText(text.slice(0, i + 1));
       setTimeout(() => writeText(text, i + 1), 400);
-    } else if (text.length === textToShow.length) {
-      setText("");
-      setTimeout(() => writeText(textToShow), 400);
     }
   };
 
