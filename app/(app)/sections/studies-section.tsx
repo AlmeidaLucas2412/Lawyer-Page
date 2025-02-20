@@ -9,7 +9,7 @@ import { Pointer } from "lucide-react";
 
 export const StudiesSection = () => {
   return (
-    <section className="flex flex-col px-4 py-8 gap-y-4">
+    <section className="flex flex-col px-4 py-8 gap-y-4" id="studies">
       <Heading
         introduction="Explore case studies"
         title="1000+ completed cases successfully"
@@ -34,26 +34,33 @@ export const StudiesSection = () => {
       </div>
       <Carousel
         opts={{ loop: true }}
-        className="hidden md:flex md:flex-col md:px-20 md:gap-y-2"
+        className="hidden md:flex md:flex-col md:px-20 md:gap-y-2 lg:px-44 xl:self-center xxl:px-72"
       >
         <CarouselContent>
-          <CarouselItem>
+          <CarouselItem className="xl:basis-1/2">
             <StudiesCard
               image="/case-3.jpg"
               title="Legal Separation"
               description="Corporate"
             />
           </CarouselItem>
-          <CarouselItem>
+          <CarouselItem className="xl:basis-1/2">
             <StudiesCard
               image="/case-2.jpg"
               title="Legal Separation"
               description="Corporate"
             />
           </CarouselItem>
-          <CarouselItem>
+          <CarouselItem className="xl:basis-1/2">
             <StudiesCard
               image="/case-3.jpg"
+              title="Legal Separation"
+              description="Corporate"
+            />
+          </CarouselItem>
+          <CarouselItem className="xl:basis-1/2">
+            <StudiesCard
+              image="/case-2.jpg"
               title="Legal Separation"
               description="Corporate"
             />

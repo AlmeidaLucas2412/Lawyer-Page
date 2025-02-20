@@ -5,7 +5,10 @@ import { CalendarClock, Crosshair, Handshake } from "lucide-react";
 
 export const ServicesSection = () => {
   return (
-    <section className="flex flex-col px-4 py-8 gap-y-4 xl:flex-row xl:items-center xl:gap-x-8 xl:px-44">
+    <section
+      className="flex flex-col px-4 py-8 gap-y-4 xl:flex-row xl:items-center xl:gap-x-8 xl:px-44"
+      id="services"
+    >
       <div className="flex flex-col gap-y-4">
         <Heading
           introduction="Services"

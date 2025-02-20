@@ -3,16 +3,19 @@ import Image from "next/image";
 
 export const Footer = () => {
   return (
-    <footer className="flex flex-col px-4 py-8 gap-y-8 bg-foreground">
-      <div className="flex flex-col gap-y-4 md:flex-row md:justify-around">
-        <div className="flex flex-col gap-y-4 md:w-1/3">
-          <h2 className="text-3xl font-bold uppercase text-background">
+    <footer
+      className="flex flex-col px-4 py-8 gap-y-8 bg-foreground lg:flex-row"
+      id="contact"
+    >
+      <div className="flex flex-col gap-y-4 md:flex-row md:justify-around lg:justify-evenly">
+        <div className="flex flex-col gap-y-4 md:w-1/3 md:justify-between">
+          <h2 className="text-3xl font-bold uppercase text-background xl:text-4xl">
             Legalcare
           </h2>
-          <span className="-mt-6 font-bold uppercase text-emphasis">
+          <span className="-mt-6 font-bold uppercase text-emphasis xl:-mt-10">
             A law firm agency
           </span>
-          <p className="text-neutral-50/70">
+          <p className="text-neutral-50/70 xl:text-lg">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores,
             velit doloremque blanditiis maxime alias saepe ad repellendus unde
             aut iste!
@@ -57,12 +60,12 @@ export const Footer = () => {
           </div>
         </div>
         <ul className="flex flex-col gap-y-4 text-background">
-          <span className="text-xl font-semibold">Practice Areas</span>
+          <span className="text-xl font-semibold xl:text-2xl xl:font-normal">
+            Practice Areas
+          </span>
           <li className="flex items-center gap-x-2 lg:hover:text-emphasis">
             <ChevronRight className="size-4" />
-            <a href="#" className="lg:hover:text-emphasis">
-              Family Law
-            </a>
+            <a href="#">Family Law</a>
           </li>
           <li className="flex items-center transition-colors duration-500 gap-x-2 lg:hover:text-emphasis">
             <ChevronRight className="size-4" />
@@ -86,7 +89,9 @@ export const Footer = () => {
           </li>
         </ul>
         <div className="flex flex-col gap-y-4 text-background">
-          <span className="text-xl font-semibold">Have a Question?</span>
+          <span className="text-xl font-semibold xl:text-2xl xl:font-normal">
+            Have a Question?
+          </span>
           <div className="flex items-center gap-x-2">
             <MapPin className="size-5" />
             <span className="text-sm">123 Main Street, Anytown, USA</span>
@@ -101,8 +106,8 @@ export const Footer = () => {
           </div>
         </div>
       </div>
-      <div className="flex flex-col gap-y-4">
-        <span className="text-xl font-semibold text-background">
+      <div className="flex flex-col gap-y-4 md:ml-6 lg:ml-0">
+        <span className="text-xl font-semibold text-background xl:text-2xl xl:font-normal">
           Business Hours
         </span>
         <div className="flex flex-col gap-y-2">

@@ -9,7 +9,7 @@ type Props = {
 
 export const TestimonialCard = ({ feedback, name, role, image }: Props) => {
   return (
-    <div className="flex flex-col p-2 border-b shadow-sm gap-y-4">
+    <div className="flex flex-col p-2 border-b shadow-sm gap-y-4 lg:cursor-pointer lg:select-none">
       <p className="text-description">{feedback}</p>
       <div className="flex items-center gap-x-3">
         <Image

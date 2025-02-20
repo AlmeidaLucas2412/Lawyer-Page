@@ -1,15 +1,18 @@
 export const AppointmentSection = () => {
   return (
     <section
-      className="relative flex flex-col px-4 py-8"
+      className="relative flex flex-col px-4 py-8 xl:py-24"
       style={{
         backgroundImage: "url('/appointment.jpg')",
         backgroundSize: "cover",
-        backgroundPosition: "center",
+        backgroundPosition: "top",
       }}
+      id="appointment"
     >
-      <div className="absolute inset-0 z-10 bg-foreground/80">{""}</div>
-      <div className="z-20 flex flex-col gap-y-4">
+      <div className="absolute inset-0 z-10 bg-foreground/80 xl:w-1/2 xl:left-1/2">
+        {""}
+      </div>
+      <div className="z-20 flex flex-col gap-y-4 xl:self-end xl:w-1/2 xl:px-4">
         <span className="text-sm font-bold text-emphasis">
           Booking an Appointment
         </span>

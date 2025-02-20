@@ -8,7 +8,7 @@ type Props = {
 
 export const StudiesCard = ({ image, title, description }: Props) => {
   return (
-    <div className="relative flex flex-col items-center justify-center">
+    <div className="relative flex flex-col items-center justify-center md:cursor-pointer md:select-none">
       <Image
         src={image}
         width={500}

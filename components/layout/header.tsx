@@ -70,22 +70,22 @@ export const Header = () => {
               <a href="#">Home</a>
             </li>
             <li className="lg:hover:text-emphasis">
-              <a href="#concepts">Services</a>
+              <a href="#services">Services</a>
             </li>
             <li className="lg:hover:text-emphasis">
-              <a href="#pricing">About us</a>
+              <a href="#about">About us</a>
             </li>
             <li className="lg:hover:text-emphasis">
-              <a href="#premium">Case Studies</a>
+              <a href="#studies">Case Studies</a>
             </li>
             <li className="lg:hover:text-emphasis">
-              <a href="#premium">Appointment</a>
+              <a href="#appointment">Appointment</a>
             </li>
             <li className="lg:hover:text-emphasis">
-              <a href="#premium">Last Cases</a>
+              <a href="#testimonial">Testimonial</a>
             </li>
             <li className="lg:hover:text-emphasis">
-              <a href="#premium">Contact</a>
+              <a href="#contact">Contact</a>
             </li>
           </ul>
         </div>

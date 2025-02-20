@@ -25,7 +25,7 @@ export const Hero = () => {
         <span className="font-bold uppercase text-emphasis xl:text-lg">
           Welcome to legalcare
         </span>
-        <h1 className="text-4xl font-bold capitalize text-background xl:text-6xl">
+        <h1 className="text-4xl font-bold capitalize text-background xl:text-6xl m:w-2/3 md:w-auto">
           Attorneys fighting for your
           <Typewritter textToShow="Freedom." />
         </h1>
