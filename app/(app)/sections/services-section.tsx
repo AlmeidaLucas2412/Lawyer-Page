@@ -16,7 +16,7 @@ export const ServicesSection = () => {
           description="Excelência Jurídica. Compromisso, Experiência e Dedicação Exclusiva ao Seu Caso."
         />
         <Button className="text-base w-fit p-7">
-          <span>Consulta gratuita</span>
+          <a href="#appointment">Consulta gratuita</a>
         </Button>
       </div>
       <div className="flex flex-col p-6 mt-4 -mx-4 gap-y-8 bg-emphasis md:flex-row md:gap-x-2">
