@@ -13,37 +13,37 @@ export const AppointmentSection = () => {
         {""}
       </div>
       <div className="z-20 flex flex-col gap-y-4 xl:self-end xl:w-1/2 xl:px-4">
-        <span className="text-sm font-bold text-emphasis">
-          Booking an Appointment
+        <span className="text-sm font-bold text-emphasis uppercase">
+          Agende uma consulta
         </span>
         <h2 className="text-4xl font-bold text-background">
-          Free Consultation
+          Consulta Gratuita
         </h2>
         <form className="flex flex-col gap-y-3 text-background">
           <input
             type="text"
-            placeholder="Your Name"
+            placeholder="Nome"
             className="px-4 py-2 bg-transparent border rounded-sm border-background placeholder:text-background focus:outline-none"
           />
           <input
             type="email"
-            placeholder="Your Email"
+            placeholder="Email"
             className="px-4 py-2 bg-transparent border rounded-sm border-background placeholder:text-background focus:outline-none"
           />
           <input
             type="phone"
-            placeholder="Your Phone Number"
+            placeholder="Telefone"
             className="px-4 py-2 bg-transparent border rounded-sm border-background placeholder:text-background focus:outline-none"
           />
           <textarea
-            placeholder="Your Message"
+            placeholder="Breve Descrição"
             className="px-4 py-2 bg-transparent border rounded-sm border-background placeholder:text-background focus:outline-none"
           />
           <button
             type="submit"
             className="p-3 rounded-sm bg-emphasis text-background"
           >
-            Send Message
+            Enviar
           </button>
         </form>
       </div>

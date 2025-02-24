@@ -13,12 +13,11 @@ export const Footer = () => {
             Legalcare
           </h2>
           <span className="-mt-6 font-bold uppercase text-emphasis xl:-mt-10">
-            A law firm agency
+            Escritório de Advocacia
           </span>
           <p className="text-neutral-50/70 xl:text-lg">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores,
-            velit doloremque blanditiis maxime alias saepe ad repellendus unde
-            aut iste!
+            Comprometidos com a justiça e dedicados a fornecer serviços
+            jurídicos de excelência. Sua confiança é nossa prioridade.
           </p>
           <div className="flex gap-x-2">
             <div className="flex items-center justify-center rounded-full size-12 bg-background/20">
@@ -61,44 +60,44 @@ export const Footer = () => {
         </div>
         <ul className="flex flex-col gap-y-4 text-background">
           <span className="text-xl font-semibold xl:text-2xl xl:font-normal">
-            Practice Areas
+            Áreas de Atuação
           </span>
-          <li className="flex items-center gap-x-2 lg:hover:text-emphasis">
+          <li className="flex items-center transition-colors duration-500 gap-x-2 lg:hover:text-emphasis">
             <ChevronRight className="size-4" />
-            <a href="#">Family Law</a>
+            <a href="#">Direito de Família</a>
           </li>
           <li className="flex items-center transition-colors duration-500 gap-x-2 lg:hover:text-emphasis">
             <ChevronRight className="size-4" />
-            <a href="#">Business Law</a>
+            <a href="#">Direito Empresarial</a>
           </li>
           <li className="flex items-center transition-colors duration-500 gap-x-2 lg:hover:text-emphasis">
             <ChevronRight className="size-4" />
-            <a href="#">Insurance Law</a>
+            <a href="#">Direito de Seguros</a>
           </li>
           <li className="flex items-center transition-colors duration-500 gap-x-2 lg:hover:text-emphasis">
             <ChevronRight className="size-4" />
-            <a href="#">Criminal Law</a>
+            <a href="#">Direito Penal</a>
           </li>
           <li className="flex items-center transition-colors duration-500 gap-x-2 lg:hover:text-emphasis">
             <ChevronRight className="size-4" />
-            <a href="#">Property Law</a>
+            <a href="#">Direito Imobiliário</a>
           </li>
           <li className="flex items-center transition-colors duration-500 gap-x-2 lg:hover:text-emphasis">
             <ChevronRight className="size-4" />
-            <a href="#">Fire Accident</a>
+            <a href="#">Acidente de Incêndio</a>
           </li>
         </ul>
         <div className="flex flex-col gap-y-4 text-background">
           <span className="text-xl font-semibold xl:text-2xl xl:font-normal">
-            Have a Question?
+            Alguma Dúvida?
           </span>
           <div className="flex items-center gap-x-2">
             <MapPin className="size-5" />
-            <span className="text-sm">123 Main Street, Anytown, USA</span>
+            <span className="text-sm">123 Rua Principal, Cidade, BR</span>
           </div>
           <div className="flex items-center gap-x-2">
             <Phone className="size-5" />
-            <span className="text-sm">+1-123-456-7890</span>
+            <span className="text-sm">+55 (00) 0000-0000</span>
           </div>
           <div className="flex items-center gap-x-2">
             <Mail className="size-5" />
@@ -108,19 +107,19 @@ export const Footer = () => {
       </div>
       <div className="flex flex-col gap-y-4 md:ml-6 lg:ml-0">
         <span className="text-xl font-semibold text-background xl:text-2xl xl:font-normal">
-          Business Hours
+          Horário de Atendimento
         </span>
         <div className="flex flex-col gap-y-2">
-          <span className="text-sm text-emphasis">Opening Days:</span>
+          <span className="text-sm text-emphasis">Dias de abertura:</span>
           <span className="text-sm text-background">
-            Monday - Friday: 9am - 8pm
+            Segunda - Sexta: 9h - 20h
           </span>
-          <span className="text-sm text-background">Saturday: 9am - 5pm</span>
+          <span className="text-sm text-background">Sábado: 9h - 17h</span>
         </div>
         <div className="flex flex-col gap-y-2">
-          <span className="text-sm text-emphasis">Vacations:</span>
+          <span className="text-sm text-emphasis">Folgas:</span>
           <span className="text-sm text-background">
-            All sunday days and all official holidays
+            Todos os domingos e feriados oficiais.
           </span>
         </div>
       </div>

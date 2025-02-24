@@ -44,7 +44,7 @@ export const BlogCard = ({
       </div>
       <p className="text-description">{description}</p>
       <Button className="w-fit">
-        <span>Read More</span>
+        <span>Ler Mais</span>
       </Button>
     </div>
   );

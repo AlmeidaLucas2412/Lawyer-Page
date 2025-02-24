@@ -10,11 +10,11 @@ export const WelcomeSection = () => {
   const [activeButton, setActiveButton] = useState("");
 
   const MISSION_TEXT =
-    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Id itaque amet expedita sapiente autem. Tempore voluptas assumenda nesciunt consectetur perferendis.";
+    "Defender incansavelmente os direitos e interesses de nossos clientes, promovendo a justiça com ética e excelência.";
   const VISION_TEXT =
-    "Lorem ipsum dolor sit amet consectetur adipisicing elit temporibus consequuntur.";
+    "Ser referência nacional em advocacia, reconhecida pela competência, transparência e compromisso com a justiça.";
   const VALUES_TEXT =
-    "Lorem ipsum dolor sit amet consectetur adipisicing elit.";
+    "Ética, Excelência, Compromisso, Transparência e Respeito.";
 
   useEffect(() => {
     setActiveButton("mission");
@@ -40,9 +40,9 @@ export const WelcomeSection = () => {
       />
       <div className="flex flex-col gap-y-2 md:p-8 md:text-center md:flex-1 xl:gap-y-10">
         <Heading
-          introduction="Welcome to legalcare"
-          title="We always fight for your justice to win"
-          description="Lorem ipsum dolor sit amet consectetur, adipisicing elit."
+          introduction="Bem vindo(a) à Legalcare"
+          title="Nós sempre lutamos em prol da Justiça"
+          description="Trabalhamos incansavelmente para garantir que a justiça prevaleça"
         />
         <div className="flex flex-col xl:flex-row xl:self-center xl:gap-x-6">
           <Button
@@ -50,21 +50,21 @@ export const WelcomeSection = () => {
             variant={activeButton === "mission" ? "default" : "ghost"}
             className="p-6"
           >
-            <span className="text-base font-semibold">Our Mission</span>
+            <span className="text-base font-semibold">Missão</span>
           </Button>
           <Button
             onClick={() => handleText(VISION_TEXT, "vision")}
             variant={activeButton === "vision" ? "default" : "ghost"}
             className="p-6"
           >
-            <span className="text-base font-semibold">Our Vision</span>
+            <span className="text-base font-semibold">Visão</span>
           </Button>
           <Button
             onClick={() => handleText(VALUES_TEXT, "values")}
             variant={activeButton === "values" ? "default" : "ghost"}
             className="p-6"
           >
-            <span className="text-base font-semibold">Our values</span>
+            <span className="text-base font-semibold">Valores</span>
           </Button>
         </div>
         <p className="xl:h-20 text-description xl:w-1/2 xl:self-center">
@@ -72,7 +72,7 @@ export const WelcomeSection = () => {
         </p>
         <div className="p-4 bg-emphasis md:hidden">
           <span className="text-xl text-background">
-            40 Years of Experience
+            40 Anos de Experiência
           </span>
         </div>
       </div>

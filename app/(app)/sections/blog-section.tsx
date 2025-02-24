@@ -4,31 +4,35 @@ import { Heading } from "@/components/heading";
 export const BlogSection = () => {
   return (
     <section className="flex flex-col px-4 py-8 gap-y-6 md:items-center">
-      <Heading introduction="Our Blog" title="Recent Blog" alignCenter />
+      <Heading
+        introduction="Nosso Blog"
+        title="Notícias e artigos"
+        alignCenter
+      />
       <div className="flex flex-col items-center gap-y-10 md:flex-row md:gap-x-2">
         <BlogCard
-          title="All you want to know about industrial laws"
+          title="Tudo sobre leis industriais"
           image="/latest-case_1.jpg"
           day="19"
-          month="February"
+          month="Fevereiro"
           year="2025"
-          description="Lorem ipsum dolor sit amet consectetur, adipisicing elit."
+          description="Tendências legais emergentes"
         />
         <BlogCard
-          title="All you want to know about industrial laws"
+          title="Tudo sobre leis industriais"
           image="/latest-case_2.jpg"
           day="18"
-          month="February"
+          month="Fevereiro"
           year="2025"
-          description="Lorem ipsum dolor sit amet consectetur, adipisicing elit."
+          description="Guia completo para empresas"
         />
         <BlogCard
-          title="All you want to know about industrial laws"
+          title="Tudo sobre leis industriais"
           image="/latest-case_3.jpg"
           day="17"
-          month="February"
+          month="Fevereiro"
           year="2025"
-          description="Lorem ipsum dolor sit amet consectetur, adipisicing elit."
+          description="Direitos do trabalhador atualizados"
         />
       </div>
     </section>
