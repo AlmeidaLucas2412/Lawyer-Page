@@ -20,7 +20,7 @@ export const Hero = () => {
         className="z-20 flex flex-col px-4 gap-y-4 md:w-1/2 xl:w-1/3 xl:ml-[20%]"
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
-        transition={{ duration: 1 }}
+        transition={{ duration: 0.8 }}
       >
         <span className="font-bold uppercase text-emphasis xl:text-lg">
           Legalcare
