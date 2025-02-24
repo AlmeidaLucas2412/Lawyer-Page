@@ -10,7 +10,7 @@ const poppins = Poppins({
 
 export const metadata: Metadata = {
   title: "Legalcare",
-  description: "Legalcare, a law firm agency",
+  description: "Legalcare, escritório de advocacia",
 };
 
 export default function RootLayout({
