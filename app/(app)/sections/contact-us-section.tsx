@@ -33,7 +33,7 @@ export const ContactUsSection = () => {
               style={{ filter: "invert(1)" }}
             />
             <span className="xs:text-xs m:text-sm">
-              Mande uma mensagem no whatsapp
+              Mande uma mensagem no Whatsapp
             </span>
           </Button>
         </a>
